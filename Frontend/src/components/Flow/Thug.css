@@ -1,0 +1,360 @@
+#particles-jss {
+  background-image: url("/EventsPage/center/Events 2.jpg");
+  background-size: cover;
+  color: #000000;
+  width: 100%;
+  height: 130vh;
+  overflow: hidden;
+}
+
+  .heading-cricket{
+    font-size: 1.6rem;
+    color: whitesmoke;
+    position: absolute;
+    top: 4.9rem;
+    left: 40%;
+  }
+  
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 650px;
+    width: 1250px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 20px 1px;
+    gap: 150px;
+  }
+  
+  .additional-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .team-box {
+    width: 120px;
+    height: 60px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: prompt;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+
+  .semi-finals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 210px;
+  }
+
+  .finals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 210px;
+  }
+
+  .line{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 35px;
+    left: 150px;
+  }
+
+  .line2{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 125px;
+    left: 150px;
+  }
+
+  .line3{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 150px;
+  }
+  .line4{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 280px;
+    left: 150px;
+  }
+  .line5{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 360px;
+    left: 150px;
+  }
+  .line6{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 440px;
+    left: 150px;
+  }
+  .line7{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 520px;
+    left: 150px;
+  }
+  .line8{
+    border: 1px solid white;
+    width: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 600px;
+    left: 150px;
+  }
+
+  .line-next {
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 560px;
+    left: 250px;
+    transform: rotate(90deg);
+    transform-origin: center; 
+  }
+
+  .line-next2 {
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+    left: 250px;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+
+  .line-next3 {
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 240px;
+    left: 250px;
+    transform: rotate(90deg);
+    transform-origin: center; 
+  }
+
+  .line-next4 {
+    border: 1px solid white;
+    width: 89px;
+    position: absolute;
+    z-index: 100;
+    top: 80px;
+    left: 245px;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+
+  .prev-next{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 75px;
+    left: 290px;
+  }
+
+  .prev-next2{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 235px;
+    left: 293px;
+  }
+
+  .prev-next3{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+    left: 293px;
+  }
+
+  .prev-next4{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 550px;
+    left: 293px;
+  }
+
+  /* next round */
+
+  .box-next{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 75px;
+    left: 470px;
+  }
+
+  .box-next2{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 235px;
+    left: 470px;
+  }
+
+  .box-next3{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+    left: 470px;
+  }
+
+  .box-next4{
+    border: 1px solid white;
+    width: 85px;
+    position: absolute;
+    z-index: 100;
+    top: 550px;
+    left: 470px;
+  }
+
+  .line-next-next{
+    border: 1px solid white;
+    width: 160px;
+    position: absolute;
+    z-index: 100;
+    top: 155px;
+    left: 475px;
+    transform: rotate(90deg);
+    transform-origin: center; 
+  }
+
+  .line-next-next2{
+    border: 1px solid white;
+    width: 155px;
+    position: absolute;
+    z-index: 100;
+    top: 475px;
+    left: 478px;
+    transform: rotate(90deg);
+    transform-origin: center; 
+  }
+
+  .box-next-box1{
+    border: 1px solid white;
+    width: 105px;
+    position: absolute;
+    z-index: 100;
+    top: 155px;
+    left: 555px;
+  }
+
+  .box-next-box2{
+    border: 1px solid white;
+    width: 105px;
+    position: absolute;
+    z-index: 100;
+    top: 470px;
+    left: 555px;
+  }
+
+  .box-next-box3{
+    border: 1px solid white;
+    width: 105px;
+    position: absolute;
+    z-index: 100;
+    top: 150px;
+    left: 780px;
+  }
+
+  .box-next-box4{
+    border: 1px solid white;
+    width: 105px;
+    position: absolute;
+    z-index: 100;
+    top: 470px;
+    left: 780px;
+  }
+
+  .box-next-box5{
+    border: 1px solid white;
+    width: 115px;
+    position: absolute;
+    z-index: 100;
+    top: 310px;
+    left: 885px;
+  }
+  .box-next-box6{
+    border: 1px solid white;
+    width: 320px;
+    position: absolute;
+    z-index: 100;
+    top: 310px;
+    left: 725px;
+    transform: rotate(90deg);
+  }
+  
+  
+
+  @media screen and (max-width: 1152px) {
+    .team-list {
+        position: absolute;
+        top: 13%;
+        left: 5%;
+        width: 800px;
+        height: auto;
+      }
+      .heading-cricket{
+        font-size: 1.3rem;
+        color: whitesmoke;
+        position: absolute;
+        top: 5.7rem;
+        left: 15%;
+      }
+  }
+
+  
+
+  
+  @media screen and (max-width: 888px) {
+    .team-list {
+        position: absolute;
+        top: 13%;
+        left: 8%;
+        width: 250px;
+    }
+  }

@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2524245c;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-logo img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 170px; 
+  height: 60px; 
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-item,
+.sidebar-item {
+  margin-right: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-family: 'Handjet', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-item:hover,
+.sidebar-item:hover {
+  color: #f5c518;
+}
+
+.navbar-item.active,
+.sidebar-item.active {
+  border-bottom: 2px solid white;
+  color: #f5c518;
+}
+
+.navbar-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 100%;
+  right: 0;
+  height: 300%;
+  width: 50%; 
+  background-color: #37222f86; 
+  color: white;
+  border-radius: 15px;
+  z-index: 999;
+  transition: transform 0.5s ease; 
+  backdrop-filter: blur(50px);
+}
+
+.sidebar-close {
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    display: none;
+  }
+
+  .navbar-icon {
+    display: block;
+  }
+
+  .sidebar {
+    width: 70%; 
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-logo img {
+    width: 140px; 
+    height: 60px;
+  }
+
+  .navbar-icon {
+    font-size: 2rem; 
+    cursor: pointer;
+  }
+
+  .navbar {
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,42 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: black; 
+  color: #4a154b; 
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+/* Route styles */
+.route {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(1, 255, 255); 
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.route:hover {
+  color: #ffc107; 
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .route {
+    margin-top: 10px;
+  }
+}

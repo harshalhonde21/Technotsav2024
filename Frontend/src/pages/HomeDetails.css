@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#121D31, #102856);
+  padding: 0 8rem;
+  margin-top: 0rem; 
+}
+
+.upper-section,
+.lower-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px; 
+}
+
+.lower-section {
+  flex-direction: row-reverse;
+}
+
+.text-container,
+.image-container__1 {
+  width: 45%;
+}
+
+.homedetails__heading {
+  color: #269CBC;
+  font-size: 3rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+.Homedetails-event__description,
+.Homedetails-varchasva__description {
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 30px; /* Add margin between description and button */
+  font-size: 1rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+.image-container__1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.vertical-line {
+  border-left: 5px solid #3498db;
+  height: 100%;
+  margin-left: 15px;
+  padding-left: 2px;
+}
+
+.explore-button {
+  background-color: #121D31;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid rgb(100, 255, 218);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Add margin between button and photo */
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #394a55;
+  border-color: #4CAF50; 
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem; 
+    margin-top: -1rem;
+  }
+
+  .upper-section,
+  .lower-section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .text-container,
+  .image-container__1 {
+    width: 77%;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin between text-container and image-container */
+  }
+
+  .homedetails__heading {
+    font-size: 2rem;
+  }
+
+  .Homedetails-event__description,
+  .Homedetails-varchasva__description {
+    margin-left: 0;
+    margin-bottom: 28px; 
+  }
+
+  .vertical-line {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .explore-button {
+    margin-bottom: 20px; /* Add margin between button and photo */
+  }
+}

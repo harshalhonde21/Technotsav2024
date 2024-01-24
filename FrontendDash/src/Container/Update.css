@@ -1,0 +1,91 @@
+/* Update.css */
+
+.update-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .department-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  .department-table th, .department-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .department-table th {
+    background-color: #4a154b; /* Purple */
+    color: #ffffff; /* White */
+  }
+  
+  .department-table td button {
+    background-color: #4a154b; /* Purple */
+    color: #ffffff; /* White */
+    border: none;
+    padding: 6px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .department-table td button:hover {
+    background-color: #ff9800; /* Orange on hover */
+  }
+  
+
+
+
+  /* Update.css */
+
+.update-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.department-table {
+  /* Your existing styles for the table */
+}
+
+.update-form {
+  width: 50%; /* Adjust as needed */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.update-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.update-form label {
+  margin-bottom: 8px;
+}
+
+.update-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.update-form button {
+  background-color: #4a154b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-form button:hover {
+  background-color: #ff9800; /* Orange on hover */
+}

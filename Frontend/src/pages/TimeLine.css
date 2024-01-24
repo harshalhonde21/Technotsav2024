@@ -1,0 +1,56 @@
+.time__line {
+  font-family: sans-serif;
+  text-align: center;
+  background: url("/AboutPage/about-background.jpg");
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.about__timeline {
+  color: #fff;
+  font-family: "Prompt", sans-serif;
+}
+
+.vertical-timeline::before {
+  background: transparent !important;
+}
+
+.vertical-timeline-element-content {
+  border: 2px solid rgb(100, 255, 218);
+  border-bottom: none;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-time {
+  color: #fff;
+}
+
+.vertical-timeline-element .vertical-timeline-element-content::before {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+.back-button {
+  background-color: #121d31;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid rgb(100, 255, 218);
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #2e3035;
+}
+
+@media (max-width: 480px) {
+  .about__timeline {
+    font-size: 1.5rem;
+  }
+}
